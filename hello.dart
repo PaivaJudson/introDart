@@ -2,7 +2,9 @@
 main(){
 
   criarBotao("BotãoSair", botaoCriado, cor: "Preto", largura: 15.0);
-
+  criarBotao("Botão Câmera", (){
+    print("Função anónima a ser executada...");
+  });
 }
 
 void imprimirInfo(){
