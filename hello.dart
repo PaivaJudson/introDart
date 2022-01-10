@@ -1,7 +1,7 @@
 
 main(){
 
-  print(calcAreaCirculo(5));
+  criarBotao("BotãoSair", "Preto", 20.0);
 
 }
 
@@ -16,4 +16,8 @@ double calcularSoma(double a, double b){
 
 double calcAreaCirculo(double raio) => 3.14 * raio * raio;
 
-
+void criarBotao(String texto, String cor, double largura){
+  print(texto);
+  print(cor);
+  print(largura);
+}
